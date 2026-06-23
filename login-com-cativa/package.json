@@ -1,0 +1,14 @@
+{
+  "name": "login-com-cativa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Relying Party OIDC que faz 'Login com a Cativa' (Cativa como IdP).",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jose": "^5.9.6"
+  }
+}
